@@ -13,7 +13,10 @@ struct MD5HashCashOutput {
     // hashcode found using seed + message
     hashcode: String,
 }
+const CHARSET: &[u8] = b"ABCDEF0123456789";
+const PASSWORD_LEN: usize = 4;
 fn main(){
+
     let mut rng = rand::thread_rng();
     let input: MD5HashCashInput = MD5HashCashInput{
         complexity: rng.gen_range(1..128),
@@ -28,29 +31,36 @@ fn main(){
     };
     while continue_loop
     {
-        let mut seed: String = rand::thread_rng()
-            .sample_iter(&Alphanumeric)
-            .take(20)
-            .map(char::from)
+        let mut seed: String = (0..PASSWORD_LEN)
+            .map(|_| {
+                let idx = rng.gen_range(0..CHARSET.len());
+                CHARSET[idx] as char
+            })
             .collect();
         println!("seed : {}", seed);
-        let mut digest = md5::compute(seed + &input.message);
+        let mut digest = md5::compute(seed.clone() + &input.message);
         let mut zero_count = 0;
         for char in digest.to_vec()
         {
-            print!("{}", char);
             number_of_loops += 1;
             zero_count += char.count_zeros();
-            if zero_count >= input.complexity
-            {
-                println!("bonne string trouvée");
-                continue_loop = false;
-                break;
-            }
         }
         println!("Number of 0 : {}, number of loops : {}", zero_count, number_of_loops);
         println!("complexity : {}", input.complexity);
-        output.hashcode = digest.
+        if zero_count >= input.complexity
+        {
+            println!("bonne string trouvée");
+            output.hashcode = format!("{:X}", digest);
+            output.seed = u64::from_str_radix(&seed, 16).unwrap_or_default();
+            println!("hashcode final : {}", output.hashcode);
+            println!("seed finale : {}", output.seed);
+            continue_loop = false;
+            break;
+        }
+        else
+        {
+            output.hashcode = "".to_string();
+        }
     }
 
 
