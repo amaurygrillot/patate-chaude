@@ -1,0 +1,9 @@
+C:\Users\Lucas\Documents\GitHub\patate-chaude\client\target\debug\deps\ppv_lite86-f6ee0673732742bc.rmeta: C:\Users\Lucas\.cargo\registry\src\github.com-1ecc6299db9ec823\ppv-lite86-0.2.16\src\lib.rs C:\Users\Lucas\.cargo\registry\src\github.com-1ecc6299db9ec823\ppv-lite86-0.2.16\src\soft.rs C:\Users\Lucas\.cargo\registry\src\github.com-1ecc6299db9ec823\ppv-lite86-0.2.16\src\types.rs C:\Users\Lucas\.cargo\registry\src\github.com-1ecc6299db9ec823\ppv-lite86-0.2.16\src\x86_64\mod.rs C:\Users\Lucas\.cargo\registry\src\github.com-1ecc6299db9ec823\ppv-lite86-0.2.16\src\x86_64\sse2.rs
+
+C:\Users\Lucas\Documents\GitHub\patate-chaude\client\target\debug\deps\ppv_lite86-f6ee0673732742bc.d: C:\Users\Lucas\.cargo\registry\src\github.com-1ecc6299db9ec823\ppv-lite86-0.2.16\src\lib.rs C:\Users\Lucas\.cargo\registry\src\github.com-1ecc6299db9ec823\ppv-lite86-0.2.16\src\soft.rs C:\Users\Lucas\.cargo\registry\src\github.com-1ecc6299db9ec823\ppv-lite86-0.2.16\src\types.rs C:\Users\Lucas\.cargo\registry\src\github.com-1ecc6299db9ec823\ppv-lite86-0.2.16\src\x86_64\mod.rs C:\Users\Lucas\.cargo\registry\src\github.com-1ecc6299db9ec823\ppv-lite86-0.2.16\src\x86_64\sse2.rs
+
+C:\Users\Lucas\.cargo\registry\src\github.com-1ecc6299db9ec823\ppv-lite86-0.2.16\src\lib.rs:
+C:\Users\Lucas\.cargo\registry\src\github.com-1ecc6299db9ec823\ppv-lite86-0.2.16\src\soft.rs:
+C:\Users\Lucas\.cargo\registry\src\github.com-1ecc6299db9ec823\ppv-lite86-0.2.16\src\types.rs:
+C:\Users\Lucas\.cargo\registry\src\github.com-1ecc6299db9ec823\ppv-lite86-0.2.16\src\x86_64\mod.rs:
+C:\Users\Lucas\.cargo\registry\src\github.com-1ecc6299db9ec823\ppv-lite86-0.2.16\src\x86_64\sse2.rs:

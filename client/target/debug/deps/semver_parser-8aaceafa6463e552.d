@@ -1,0 +1,11 @@
+C:\Users\Lucas\Documents\GitHub\patate-chaude\client\target\debug\deps\semver_parser-8aaceafa6463e552.rmeta: C:\Users\Lucas\.cargo\registry\src\github.com-1ecc6299db9ec823\semver-parser-0.7.0\src\lib.rs C:\Users\Lucas\.cargo\registry\src\github.com-1ecc6299db9ec823\semver-parser-0.7.0\src\version.rs C:\Users\Lucas\.cargo\registry\src\github.com-1ecc6299db9ec823\semver-parser-0.7.0\src\range.rs C:\Users\Lucas\.cargo\registry\src\github.com-1ecc6299db9ec823\semver-parser-0.7.0\src\common.rs C:\Users\Lucas\.cargo\registry\src\github.com-1ecc6299db9ec823\semver-parser-0.7.0\src\recognize.rs
+
+C:\Users\Lucas\Documents\GitHub\patate-chaude\client\target\debug\deps\libsemver_parser-8aaceafa6463e552.rlib: C:\Users\Lucas\.cargo\registry\src\github.com-1ecc6299db9ec823\semver-parser-0.7.0\src\lib.rs C:\Users\Lucas\.cargo\registry\src\github.com-1ecc6299db9ec823\semver-parser-0.7.0\src\version.rs C:\Users\Lucas\.cargo\registry\src\github.com-1ecc6299db9ec823\semver-parser-0.7.0\src\range.rs C:\Users\Lucas\.cargo\registry\src\github.com-1ecc6299db9ec823\semver-parser-0.7.0\src\common.rs C:\Users\Lucas\.cargo\registry\src\github.com-1ecc6299db9ec823\semver-parser-0.7.0\src\recognize.rs
+
+C:\Users\Lucas\Documents\GitHub\patate-chaude\client\target\debug\deps\semver_parser-8aaceafa6463e552.d: C:\Users\Lucas\.cargo\registry\src\github.com-1ecc6299db9ec823\semver-parser-0.7.0\src\lib.rs C:\Users\Lucas\.cargo\registry\src\github.com-1ecc6299db9ec823\semver-parser-0.7.0\src\version.rs C:\Users\Lucas\.cargo\registry\src\github.com-1ecc6299db9ec823\semver-parser-0.7.0\src\range.rs C:\Users\Lucas\.cargo\registry\src\github.com-1ecc6299db9ec823\semver-parser-0.7.0\src\common.rs C:\Users\Lucas\.cargo\registry\src\github.com-1ecc6299db9ec823\semver-parser-0.7.0\src\recognize.rs
+
+C:\Users\Lucas\.cargo\registry\src\github.com-1ecc6299db9ec823\semver-parser-0.7.0\src\lib.rs:
+C:\Users\Lucas\.cargo\registry\src\github.com-1ecc6299db9ec823\semver-parser-0.7.0\src\version.rs:
+C:\Users\Lucas\.cargo\registry\src\github.com-1ecc6299db9ec823\semver-parser-0.7.0\src\range.rs:
+C:\Users\Lucas\.cargo\registry\src\github.com-1ecc6299db9ec823\semver-parser-0.7.0\src\common.rs:
+C:\Users\Lucas\.cargo\registry\src\github.com-1ecc6299db9ec823\semver-parser-0.7.0\src\recognize.rs:
